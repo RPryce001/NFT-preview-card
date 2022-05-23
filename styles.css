@@ -1,42 +1,17 @@
 body {
   background-color: hsl(217, 54%, 11%);
-
   font-family: 'Outfit', sans-serif;
   font-size: 15px;
 }
-
-.container-fluid {
-  background-color: hsl(216, 50%, 16%);
-  border-radius: 20px;
-  width: 20%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 5px 10px 18px #888888;
-}
-
-.equilibrium-img {
-  border-radius: 10px;
-  display: block;
-  margin: 10px auto;
-  max-width: 100%;
-  height: auto;
-}
-.creator-img {
-  width: 30px;
-  text-align: left;
-  border: 1px solid rgba(255,255,255, 0.5);
-  border-radius: 15px;
-  margin: 10px;
-
-}
-
 
 h1 {
   color: white;
   font-weight: 600;
   font-size: 20px;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 p {
@@ -56,6 +31,47 @@ p {
 hr {
   color: hsl(215, 51%, 70%);
 }
+
 .flex {
   display: flex;
 }
+
+
+.container-fluid {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  width: 20%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.equilibrium-img {
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px auto;
+  max-width: 100%;
+  height: auto;
+  background: none;
+}
+
+.equilibrium-img:hover {
+  background: hsl(178, 100%, 50%);
+  opacity: 0.5;
+}
+
+
+.creator-img {
+  width: 30px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.creator-name:hover {
+  color: hsl(178, 100%, 50%) !important;
+}
+
