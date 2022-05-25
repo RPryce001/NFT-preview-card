@@ -45,7 +45,6 @@ hr {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 5px 10px 18px #888888;
 }
 
 .equilibrium-img {
@@ -72,6 +71,6 @@ hr {
 }
 
 .creator-name:hover {
-  color: hsl(178, 100%, 50%) !important;
+  color: hsl(178, 100%, 50%);
 }
 
